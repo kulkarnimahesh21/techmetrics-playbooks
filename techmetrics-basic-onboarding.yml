@@ -1,5 +1,6 @@
 ---
-- hosts: all
+- name: techmetrics playbook 
+  hosts: all
   gather_facts: no
   become: True
   become_user: root
